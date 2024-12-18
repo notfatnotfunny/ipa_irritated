@@ -1,0 +1,36 @@
+<variant
+    name="release"
+    package="com.example.irrigation_app"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/intermediates/default_proguard_files/global/proguard-android.txt-8.1.0:/usr/lib/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/intermediates/javac/release/classes:/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/tmp/kotlin-classes/release:/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/kotlinToolingMetadata:/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.irrigation_app"
+      generatedSourceFolders="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/notfatnotfunny/Documents/infoIsFun/Irritation-Project/irrigation_app/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/notfatnotfunny/.gradle/caches/8.10.2/transforms/e82ec9e909c9ab2df31b64548ed2e824/transformed/D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>
